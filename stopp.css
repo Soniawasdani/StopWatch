@@ -1,0 +1,161 @@
+body {
+    font-family: helvetica;
+    -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: purple;
+      text-align: center;
+  }
+  h3 {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: #000;
+  }
+  .hide {
+    display: none !important;
+  }
+  
+  .container {
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    margin-left: -161px;
+    margin-top: -250px; */
+  }
+  
+  .frame {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 53px;
+    box-shadow: inset 0 0 15px 1px #7f8082, inset 0 0 4px 0px #7f8082;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #949494;
+    overflow: hidden;
+  }
+  
+  #watch {
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    background-color: #000;
+    border-radius: 40px;
+    overflow: hidden;
+    /*  box-shadow:
+      0 0 0 1px #5d5d5d,
+      0 0 0 1px #727272,
+      inset 0 0 18px 4px #fff;*/
+    
+    box-shadow: 0 0 0 1px #5d5d5d, 0 0 6px 1px #5d5d5d, 0 0 0 1px #727272, inset 0 0 20px 3px #fff, inset 35px -10px 50px 0px rgba(255, 255, 255, 0.3), 279px 326px 45px -18px rgba(153, 153, 153, 0.6), 270px -321px 45px -18px rgba(153, 153, 153, 0.5), -266px 326px 45px -18px rgba(153, 153, 153, 0.4), -264px -330px 45px -18px rgba(153, 153, 153, 0.5);
+    box-sizing: border-box;
+  }
+  
+  .blur-top {
+    position: absolute;
+    top: -30px;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.25));
+  }
+  
+   .face {
+    width: 236px;
+    height: 280px;
+    position: absolute;
+    top: 35px;
+    left: 37px;
+  }
+  
+
+  h1{
+    color: goldenrod;
+    display: inline-block;
+    width: 70px;
+    margin-top: 80px;
+    margin-left: 15px;
+    text-align: center;
+  }
+ p
+ {
+
+color:gold;
+
+text-align: center;
+
+font-size: 40px;
+}
+
+@media screen and  (max-width:657px){
+
+  .container {
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    margin-left: -161px;
+    margin-top: -250px; */
+  }
+  
+  .frame {
+    width:300px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 53px;
+    box-shadow: inset 0 0 15px 1px #7f8082, inset 0 0 4px 0px #7f8082;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #949494;
+    overflow: hidden;
+  }
+  
+  #watch {
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    background-color: #000;
+    border-radius: 40px;
+    overflow: hidden;
+    /*  box-shadow:
+      0 0 0 1px #5d5d5d,
+      0 0 0 1px #727272,
+      inset 0 0 18px 4px #fff;*/
+    
+    box-shadow: 0 0 0 1px #5d5d5d, 0 0 6px 1px #5d5d5d, 0 0 0 1px #727272, inset 0 0 20px 3px #fff, inset 35px -10px 50px 0px rgba(255, 255, 255, 0.3), 279px 326px 45px -18px rgba(153, 153, 153, 0.6), 270px -321px 45px -18px rgba(153, 153, 153, 0.5), -266px 326px 45px -18px rgba(153, 153, 153, 0.4), -264px -330px 45px -18px rgba(153, 153, 153, 0.5);
+    box-sizing: border-box;
+  }
+  
+  .blur-top {
+    position: absolute;
+    top: -30px;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.25));
+  }
+  
+ 
+  h1{
+    color: goldenrod;
+    display: inline-block;
+    width: 20px;
+    margin-top: 80px;
+    margin-left: 15px;
+    text-align: center;
+  }
+  
+button{
+  float: left;
+  margin: auto;
+}
+  
+}
+
+
